@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp -rf /usr/share/gresistor/gresistor.glade.old /usr/share/gresistor/gresistor.glade

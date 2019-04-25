@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ ! -f /usr/share/gresistor/gresistor.glade.old ]; then
+	cp -rf /usr/share/gresistor/gresistor.glade /usr/share/gresistor/gresistor.glade.old
+fi
+
+cp -rf /tmp/gresistor.glade /usr/share/gresistor/gresistor.glade
