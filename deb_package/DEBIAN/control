@@ -1,10 +1,10 @@
 Package: gresistor-extras-pt
-Version: 0.1
+Version: 0.2
 Installed-Size: 24
 Maintainer: Crash and Eddie <crash.eddie123@gmail.com>
 Section: science
 Architecture: all
 Priority: optional
-Depends: gresistor
+Depends: gresistor, python-glade2
 Description: Tradução para português do Aplicativo GResistor.
  Calculadora de código de cores de resistores. Para permitir a identificação, os resistores são geralmente marcados com bandas coloridas. Muitas vezes referenciados como códigos de cores, essas marcações são indicativas de sua resistência, tolerância e coeficiente de temperatura. O gResistor ajuda você a traduzir os códigos de cores do resistor em um valor legível. Tudo o que você precisa fazer é observar as cores no resistor e depois inseri-las no programa. Ao entrar nas cores, você verá que o valor do resistor está mudando de acordo.
