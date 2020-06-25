@@ -5,16 +5,3 @@ if [ ! -f /usr/share/gresistor/gresistor.glade.old ]; then
 	cp -rf /usr/share/gresistor/gresistor.glade /usr/share/gresistor/gresistor.glade.old
 fi
 cp -rf /tmp/gresistor-extras-pt/gresistor.glade /usr/share/gresistor/gresistor.glade
-
-# Modify launcher
-if [ ! -f /usr/share/applications/gresistor.desktop.old ]; then
-	cp -rf /usr/share/applications/gresistor.desktop /usr/share/applications/gresistor.desktop.old
-fi
-cp -rf /tmp/gresistor-extras-pt/gresistor.desktop /usr/share/applications/
-
-# Create submenu on start menu
-cp -rf /tmp/gresistor-extras-pt/education-Physics.directory /usr/share/desktop-directories/
-cp -rf /tmp/gresistor-extras-pt/education-Electronics.directory /usr/share/desktop-directories/
-
-# Merge launcher on submenu
-cp -rf /tmp/gresistor-extras-pt/gresistor.menu /etc/xdg/menus/applications-merged/

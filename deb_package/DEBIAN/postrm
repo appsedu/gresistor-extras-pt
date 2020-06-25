@@ -1,5 +1,3 @@
 #!/bin/bash
 
 mv -f /usr/share/gresistor/gresistor.glade.old /usr/share/gresistor/gresistor.glade 2>/dev/null
-mv -f /usr/share/applications/gresistor.desktop.old /usr/share/applications/gresistor.desktop 2>/dev/null
-rm -f /etc/xdg/menus/applications-merged/gresistor.menu
